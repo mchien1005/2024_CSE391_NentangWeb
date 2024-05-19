@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .sub-menu{
+            display: none;
+            transition: display 3s linear 1s;
+        }
+        .main-menu > li:hover{
+            display: block;
+        }
+        @keyframes fadeIn {
+            0%{
+                opacity: 0;
+            }
+            0
+        }
+        /*#c1 ~ div{
+            color: red;
+        }*/
+    </style>
+</head>
+<body>
+<!--<div class="contains">
+    <section class="child" id="c1">
+        <div>subchild</div>
+    </section>
+    <div class="child" id="c2">
+        Child
+    </div>
+    <div class="child" id="c3">
+        Child
+    </div>
+    <div class="child" id="c4">
+        Child
+    </div>
+</div>-->
+<ul class="main-menu">
+    <li>
+        <a href="">Menu1
+        `   <ul class="sub-menu">
+                <li><a href="">Sub Menu 1</a></li>
+                <li><a href="">Sub Menu 2</a></li>
+                <li><a href="">Sub Menu 3</a></li>
+            </ul>
+        </a>
+    </li>
+</ul>
+
+</body>
+</html>
