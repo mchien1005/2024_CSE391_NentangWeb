@@ -1,0 +1,92 @@
+body{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999999;
+}
+form{
+    background-color: white;
+    padding: 20px;
+}
+label {
+    display: inline-flex;
+    margin: 5px 25px;
+    text-align: left;
+    width: 150px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.radio-button {
+    display: flex;
+    flex-direction: column;
+    margin-left: -25px;
+}
+
+.employeeID, .lastname {
+    margin-left: auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+button {
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: mediumslateblue;
+}
+
+input[type="text"], input[type="email"]{
+    width: 450px;
+}
+input[type="date"]{
+    width: 453px;
+}
+input[type="checkbox"]{
+    user-select: none;
+}
+.error{
+    font-size: 13px;
+    color: red;
+}
+textarea{
+    width: 100%;
+    font-size: 14px;
+}
+.type-info-element {
+    display: flex;
+    align-items: center;
+}
+.captcha-container {
+    display: flex;
+}
+.captcha-main{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    user-select: none;
+}
+.captcha-main .captcha{
+    align-items: center;
+}
+#message {
+    margin-top: 10px;
+}

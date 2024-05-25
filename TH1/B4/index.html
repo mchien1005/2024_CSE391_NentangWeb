@@ -4,71 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <style>
-        label {
-            display: inline-flex;
-            margin: 5px 25px;
-            text-align: left;
-            width: 150px;
-        }
-
-        .value {
-            display: inline-block;
-            width: 200px;
-        }
-
-        #name {
-            display: inline-table;
-            margin: 0;
-            padding: 0;
-            text-align: left;
-            width: 170px;
-        }
-
-        h3 {
-            margin: 0;
-            padding: 0;
-            margin-bottom: 10px;
-        }
-
-        .radio-button {
-            display: flex;
-            flex-direction: column;
-            margin-left: 0px;
-        }
-
-        .employeeID, .lastname {
-            margin-left: auto;
-        }
-
-        .button-container {
-            display: flex;
-            justify-content: flex-end;
-            margin-top: 20px;
-            margin-right: 25px;
-        }
-
-        button {
-            margin-left: 10px;
-            width: 100px;
-            height: 30px;
-            background-color: gray;
-            border: none;
-            color: white;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: mediumslateblue;
-        }
-
-        input[type="text"], input[type="email"], input[type="datetime"], select, textarea {
-            width: 200px;
-        }
-    </style>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.tiny.cloud/1/gs97vumtxee7yubwnfqxkm2bxh8838gk5wf4g7wigy71v6fd/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<form style="font-family: Arial, Helvetica, sans-serif; font-weight: bold;">
+<form id="employeeForm" style="font-family: Arial, Helvetica, sans-serif; font-weight: bold;">
     <h3>Basic Info</h3>
     <hr>
     <div>
@@ -76,15 +20,15 @@
         <label class="employeeID">9</label>
     </div>
     <div>
-        <label for="lastname">Last Name</label>
-        <label class="lastname">Nguyễn Minh Chiến</label>
+        <label>Last Name</label>
+        <label class="lastname">Nguyễn Minh</label>
     </div>
     <div>
         <label for="firstname">First Name</label>
-        <input type="text" id="name" value="Chiến">
+        <input type="text" name="firstname" id="firstname" >
     </div>
     <div style="display: flex;">
-        <label for="gender" style="align-items: center;">Gender</label>
+        <label style="align-items: center;">Gender</label>
         <div class="radio-button">
             <label><input type="radio" name="gender" value="male">Male</label>
             <label><input type="radio" name="gender" value="female">Female</label>
@@ -94,11 +38,11 @@
     </div>
     <div>
         <label for="title">Title</label>
-        <input type="text" name="title" id="title" value="abc">
+        <input type="text" name="title" id="title">
     </div>
     <div>
         <label for="suffix">Suffix</label>
-        <input type="text" name="suffix" id="suffix" value="Mrs.">
+        <input type="text" name="suffix" id="suffix">
     </div>
     <div>
         <label for="birthdate">Birth Date</label>
@@ -114,8 +58,10 @@
     </div>
     <div>
         <label for="reportto">Report to</label>
-        <select id="reportto">
+        <select id="reportto" name="reportto">
             <option value="Buchanan">Buchanan</option>
+            <option value="Buchanan">Buchanan 2</option>
+            <option value="Buchanan">Buchanan 3</option>
         </select>
     </div>
     <br>
@@ -152,17 +98,19 @@
     </div>
     <div>
         <label for="photo">Photo</label>
-        <input type="file" id="photo">
+        <input type="file" id="photo" name="photo">
     </div>
     <br>
     <h3>Optional Info</h3>
     <hr>
-    <div>
+    <div class="type-info-element">
         <label for="note">Notes</label>
-        <textarea name="note" id="note" cols="30" rows="10"></textarea>
+        <textarea name="note" id="note">
+            Welcome to TinyMCE!
+        </textarea>
     </div>
     <div>
-        <label for="shift">Preferred Shift</label>
+        <label>Preferred Shift</label>
         <label><input type="checkbox" name="shift" value="regular">Regular</label>
         <label><input type="checkbox" name="shift" value="graveyard" checked>Graveyard</label>
     </div>
@@ -170,9 +118,13 @@
         <label for="active">Active?</label>
         <input type="checkbox" name="active" id="active" checked>
     </div>
-    <div>
-        <label for="human">Are you human?</label>
-        <input type="text" name="human" id="human">
+    <div class="captcha-container">
+        <label>Are you human?</label>
+        <div class="captcha-main">
+            <div class="captcha" id="captcha" onclick="generateCaptcha()">Click to change</div>
+            <input type="text" name="captchainput" id="captcha-input" placeholder="Nhập CAPTCHA">
+            <p id="message"></p>
+        </div>
     </div>
     <br>
     <hr>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50d08765-b0c9-4bea-b0e3-ab33f076cfe3" name="Changes" comment="TH1">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TH1/B4/js/jquery-3.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TH1/B4/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TH2/B1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TH2/B2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TH2/B3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TH2/jquery-3.7.1.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TH1/B4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/TH1/B4/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="NguyenMinhChien" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mchien1005&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mchien1005/2024_CSE391_NentangWeb&quot;,
+    &quot;accountId&quot;: &quot;ae523068-332f-4b22-9565-ab781d26e6c8&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2gDbtceFGNF9q1QGg0wmrjHDkyx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "NguyenMinhChien",
+    "last_opened_file_path": "D:/PTWEB/Jquery-Validation",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PTWEB\NguyenMinhChien\TH1\TH1\B4\js" />
+      <recent name="D:\PTWEB\NguyenMinhChien\TH1\TH2" />
+      <recent name="D:\PTWEB\NguyenMinhChien\TH1\B5\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PTWEB\NguyenMinhChien\TH1\TH2\B1" />
+      <recent name="D:\PTWEB\NguyenMinhChien\TH1\TH1" />
+      <recent name="D:\PTWEB\NguyenMinhChien\TH1\B5\css" />
+      <recent name="D:\PTWEB\NguyenMinhChien\TH1\B5\js" />
+      <recent name="D:\PTWEB\NguyenMinhChien\TH1\B2\assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-2e7d6887c066-JavaScript-WS-241.15989.47" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50d08765-b0c9-4bea-b0e3-ab33f076cfe3" name="Changes" comment="" />
+      <created>1715235310670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715235310670</updated>
+      <workItem from="1715235311873" duration="8084000" />
+      <workItem from="1715324177094" duration="4847000" />
+      <workItem from="1715657747980" duration="6705000" />
+      <workItem from="1715669545106" duration="5975000" />
+      <workItem from="1715838886637" duration="8808000" />
+      <workItem from="1715928853702" duration="5965000" />
+      <workItem from="1716108601204" duration="280000" />
+      <workItem from="1716108979802" duration="3422000" />
+      <workItem from="1716167561228" duration="10413000" />
+      <workItem from="1716178823733" duration="3994000" />
+      <workItem from="1716299373447" duration="2654000" />
+      <workItem from="1716304261134" duration="2252000" />
+      <workItem from="1716383394337" duration="763000" />
+      <workItem from="1716444506440" duration="6003000" />
+    </task>
+    <task id="LOCAL-00001" summary="TH1">
+      <option name="closed" value="true" />
+      <created>1716300122118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716300122118</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TH1" />
+    <option name="LAST_COMMIT_MESSAGE" value="TH1" />
+  </component>
+</project>
